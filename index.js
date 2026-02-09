@@ -28,7 +28,7 @@ client.on('messageCreate', async (message) => {
     const embed = message.embeds[0];
 
     // Sprawdza czy bump się udał
-    if (embed.description && embed.description.includes("Bump done")) {
+    if (embed.description && embed.description.includes("Podbito serwer")) {
 
         try {
             // Pobiera ostatnie wiadomości, aby znaleźć kto użył /bump
