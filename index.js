@@ -53,6 +53,8 @@ client.on('messageCreate', async (message) => {
 });
 
 // Logowanie (token z .env lub Render Environment)
+console.log("TOKEN:", process.env.TOKEN);
+
 client.login(process.env.TOKEN);
 
 
